@@ -134,18 +134,26 @@
         flex-direction: column-reverse;
         width: 30%;
         height: 85%;
-    
+        
+        .helper{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            height: 50%;
+        }
 
         .btn-simple{
-            position: absolute;
+            position: relative;
             p{
-                font-size: 3rem;
+                font-size: 2rem;
             }
             &:hover{
                 background-color: white;
                 color: black;
                 p{
-                font-size: 3.5rem;
+                font-size: 2.2rem;
                 font-weight: $bold;
                 }
             }
@@ -154,6 +162,9 @@
             width: 100%;
             height: 100%;
             border: 1rem solid #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
             .img-servicios{
                 width: 100%;
@@ -176,12 +187,12 @@
         }
 
         .titulo-producto{
-            font-size: 6rem;
-            margin-bottom: -2rem;
+            font-size: 4rem;
+            margin: 0;
         }
 
         .contenedor-imagen{
-            width: 30%;
+            width: 40%;
             margin-top: -20rem;
             margin-right: -5rem;
         }
@@ -189,13 +200,15 @@
         .mobile-help{
         display: flex;
         flex-direction: row;
-        height: 75vh;
+        height: 70vh;
 
         }
 
+    
+
         .contenedor-bordes, .contenedor-bordes_detalles{
-            width: 49rem;
-            height: 38rem;
+            width: 45rem;
+            height: 30rem;
             border: solid $black 1rem;
             margin-bottom: -20rem;
             margin-left: -5rem;
@@ -204,7 +217,7 @@
                 width: 95%;
                 height: 95%;
                 margin: 1rem auto;
-                padding: 5rem;
+                padding: 1.5rem;
                 .producto-titulo, .producto-descripcion{
                     font-size: 2.5rem;
                     line-height: 2.5rem;
@@ -214,7 +227,8 @@
         }
 
         .contenedor-bordes_detalles{
-            margin-top: -42rem;
+            margin-top: -38rem;
+            margin-left: -2rem;
             z-index: -1;
         }
 
@@ -226,7 +240,7 @@
         }
         
         .btn-caracteristicas{
-            margin-top: -34rem;
+            margin-top: -10rem;
         }
     }
 }
