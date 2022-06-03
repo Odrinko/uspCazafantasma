@@ -115,6 +115,12 @@
     }
     .ayuda-contenedor{
         width: 50%;
+        .contenedor-imagen{
+            height: 100%;
+            .imagen{
+                height: 100%;
+            }
+        }
     }
     .contenedor-help{
         display: flex;
@@ -158,16 +164,20 @@
         .contendor-nosotros_texto{
             height: 100%;
             .nosotros-titulo{
-                font-size: 4.5rem;
+                font-size: 3rem;
                 font-weight: $regular;
                 margin: 0;
             }
             .nosotros-descripcion{
                 font-weight: $regular;
                 text-align: justify;
-                font-size: 4rem;
-                line-height: 6rem;
+                font-size: 2rem;
+                line-height: 3rem;
                 padding: none;
+            }
+
+            .btn-simple{
+                padding: .5rem;
             }
         }
         

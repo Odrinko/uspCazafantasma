@@ -3,7 +3,8 @@
       <div class="formulario-contenedor-texto">
         <h2>¿Necesitas algo mas?</h2>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam sunt in eligendi ad consequuntur accusantium aliquid quasi atque reiciendis exercitationem? Mollitia quae quisquam ratione officiis quasi maxime magnam corrupti maiores!
+          ¿Tienes preguntas, comentarios o alguna duda sobre alguna plaga en particular?
+          ¡Contáctanos hoy mismo en nuestros diversos canales de comunicación!
         </p>
       </div>
       <div class="contenedor-formulario">
