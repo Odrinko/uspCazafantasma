@@ -1,0 +1,115 @@
+.dark{
+    .header-bg{
+        background-image: url('/build/img/isotipoRed.svg');
+        background-color: black;
+    }
+
+    background-color: black;
+    color: white;
+    .header-logotipo{
+        filter: invert(100%);
+    }
+    .menu-mobile{
+        filter: invert(100%);
+    }
+    .seccion-corporativo .contenedor-img, .seccion-hogar .contenedor-img{
+        border: .3rem solid $rojo;
+    }
+    .contenedor-img{
+        border: .3rem solid $rojo;
+    }
+
+    .desktop-presentacion .contenedor-logotipo .bg-logotipo{
+        background-image: url('/build/img/isotipoRed.svg');
+    }
+
+    .presentacion-logotipo{
+        filter: invert(100%);
+    }
+    .size .contenedor-botones_desktop{
+        background-color: $negroHumo;
+    }
+
+    .size .contenedor-botones_desktop .boton-desktop{
+        background-color: $negroHumo;
+        color: white;
+        &:hover{
+            background-color: $rojo;
+            color: white;
+        }
+    }
+    .nosotros-contenedor_botones .boton{
+        background-color: $negroHumo;
+        color: white;
+        &:hover{
+            background-color: $rojo;
+            color: white;
+        }
+    }
+
+    .contenedor-carrusel .contenedor-bordes .contenedor-descripcion, .contenedor-carrusel .contenedor-bordes_detalles .contenedor-descripcion{
+        background-color: $negroHumo;
+    }
+
+    .contenedor-carrusel .contenedor-bordes, .contenedor-carrusel .contenedor-bordes_detalles{
+        border: solid $rojo .5rem;
+    }
+    .btn-simple{
+        background-color: $rojo;
+    }
+
+    .darkIcon{
+        filter: invert(100%);
+    }
+    .navegacion{
+        a{
+            color: white;
+        }
+    }
+    .contenedor-bg_color{
+        background-color: black;
+    }
+
+    .icono-svg{
+        filter: invert(100%);
+    }
+    .footer-logo{
+        filter: invert(100%);
+    }
+
+    .footer-bg{
+        background-color: $negroHumo;
+    }
+    .nosotros-icono{
+        filter: invert(100%);
+    }
+    .contendor-nosotros_texto{
+        background-color: #1c1c1c;
+    }
+    .btn-black_whatsapp{
+        background-color: $rojo;
+    }
+
+    .bg2-nosotros_principal, .bg-nosotros_principal{
+        background-image: url('/build/img/isotipoRed.svg');
+    }
+
+    .contenedor-bg{
+        background-color: $negroHumo;
+        @include desktop{
+            background-color: $negro;
+        }
+    }
+
+   .navegacion-contenedor{
+       .navegacion{
+           a{
+               color: white;
+               &:hover{
+                     color: $negro;
+                     background-color: $blanco;
+                }
+            }
+           }
+       }
+   }

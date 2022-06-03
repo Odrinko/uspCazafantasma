@@ -1,0 +1,153 @@
+// mobile version
+
+.contenedor-bg_color {
+    height: 55vh;
+  }
+  .header-bg {
+    height: 55.5vh;
+    width: 100%;
+    background-image: url("/build/img/isotipo.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.27;
+    position: absolute;
+    top: 0;
+  }
+  
+  .logotipo-contenedor {
+    margin: 0 auto;
+    width: 40%;
+    .header-logotipo {
+      padding: 3rem 0;
+    }
+  }
+  .navegacion-contenedor {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    .navegacion {
+      display: flex;
+      flex-direction: column;
+      font-size: 2rem;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+  
+      .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .ocultar-nav {
+        display: none;
+      }
+  
+      a {
+        margin: 0.5rem 0.5rem;
+        padding: 1rem 3rem;
+        color: $negro;
+        font-weight: $regular;
+        margin: 0 auto;
+  
+        &:hover {
+          color: $blanco;
+          background-color: $negro;
+          border-radius: 5rem;
+        }
+      }
+      .menu-mobile {
+        width: 5rem;
+        margin: 0 auto 1.5rem auto;
+        cursor: pointer;
+      }
+  
+      .darkIcon {
+        width: 5rem;
+        margin: 1.5rem auto 0 auto;
+        cursor: pointer;
+      }
+    }
+  }
+  
+  //desktop version
+  
+  @include desktop {
+    .contenedor-bg_color {
+      background-color: opacify($color: #d1b285, $amount: 1);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 1rem;
+      height: 15vh;
+      .logotipo-contenedor {
+        display: flex;
+        margin: 1rem;
+        width: 30%;
+        .header-logotipo {
+          justify-content: center;
+          align-items: center;
+          padding: 1rem 0;
+        }
+      }
+      .navegacion-contenedor {
+        display: flex;
+        flex-direction: row;
+        .navegacion {
+          flex-direction: row;
+          width: 90%;
+          font-size: 3rem;
+          .nav {
+            flex-direction: row;
+          }
+  
+          .menu-mobile {
+            visibility: collapse;
+          }
+          .darkIcon {
+            margin: 3rem;
+            width: 5rem;
+          }
+        }
+      }
+  
+      .botones-desktop {
+        display: flex;
+        width: 20%;
+        align-items: center;
+        font-size: 4rem;
+        .btn-black_whatsapp {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          width: 90%;
+          height: 90%;
+          padding: 0;
+          margin: 0 auto;
+          p {
+            //esto da separacion entre el texto y el icono
+            line-height: 1.5;
+            font-size: 2.5rem;
+          }
+          .btn-black_in {
+            //contenedor de whatsapp
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: $blanco;
+            width: 80%;
+            height: 45%;
+            .icon-btn {
+              //icono de whatsapp
+              height: auto;
+              width: auto;
+            }
+          }
+        }
+      }
+      .header-bg {
+        visibility: hidden;
+      }
+    }
+  }

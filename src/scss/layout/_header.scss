@@ -1,0 +1,136 @@
+.section-bg {
+    background-image: linear-gradient(
+        180deg,
+        rgba(236, 236, 237, 1) 0%,
+        rgba(69, 75, 3, 0) 55%,
+        rgba(76, 89, 19, 0) 92%
+      ),
+      url("/build/img/header.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .section-contenedor {
+    height: 40vh;
+    margin-bottom: 0.5rem;
+    opacity: inherit;
+    .inicio-botones {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+  
+    .contenedor-desktop_header {
+      display: none;
+    }
+    .eslogan-desktop_contenedor {
+      display: none;
+    }
+  }
+  
+  //Desktop version
+  
+  @include desktop {
+    .section-bg {
+      background-image: url("/build/img/header.webp");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+  
+      .inicio-botones {
+        display: none;
+      }
+    }
+  
+    .section-contenedor {
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  
+      .eslogan-desktop_contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: 60%;
+        color: $blanco;
+        font-weight: $bold;
+        text-align: justify;
+        h2 {
+          font-size: 6rem;
+          font-weight: $bold;
+        }
+        h4{
+          font-size: 4rem;
+          font-weight: $bold;
+        }
+      }
+  
+      .contenedor-desktop_header{
+        display: flex;
+        width: 100%;
+        height: 32vh;
+        .utilidad-header{
+          display: flex;
+          justify-content: space-around;
+          align-items: flex-end;
+          width: 100%;
+        }
+        .botones-desktop_header{
+          display: flex;
+          background-color: rgba(0, 0, 0, .37);
+          padding: 3rem 12rem;
+          border-radius: 25px 25px 0px 0px;
+          &:hover{
+            flex-direction: column;
+            justify-content: center;
+            padding: 0%;
+            white-space: normal;
+            height: 40vh;
+            width: 30%;
+  
+            .btn-rojo{
+              display: flex;
+              color: white;
+              font-size: 3rem;
+            }
+  
+            .titulo-banner{
+              margin: 0 auto;
+            }
+      
+            .descripcion-banner_animacion{
+              display: flex;
+              line-height: 1.5;
+              text-align: justify;
+              padding: 0 5rem;
+            }
+          }
+  
+        }
+  
+        .titulo-banner{
+          color: $blanco;
+          font-size: 2rem;
+          margin: 0%;
+        }
+        .descripcion-banner_animacion{
+          color: $blanco;
+          display: none;
+          font-size: 2.5rem;
+        }
+  
+        .btn-rojo{
+          display: none;
+        }
+      }
+      
+    }
+  }
+  

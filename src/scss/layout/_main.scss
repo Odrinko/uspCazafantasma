@@ -1,0 +1,182 @@
+.help{
+    overflow: visible;
+    margin-top: 1rem;
+    height: auto;
+}
+
+.contenedor-help{
+    margin: 3rem;
+}
+
+
+.bg-nosotros_principal{
+    width: 100%;
+    height: 100%;
+    background-image: url('/build/img/isotipo.svg');
+    background-repeat: no-repeat;
+    background-position: 400% -25%;
+    background-size: 90%;
+    position: absolute;
+    z-index: -1;
+    overflow: visible;
+    opacity: .27;
+}
+
+.bg2-nosotros_principal{
+    width: 100%;
+    height: 100%;
+    background-image: url('/build/img/isotipo.svg');
+    background-repeat: no-repeat;
+    background-position: -400% 125%;
+    background-size: 90%;
+    position: absolute;
+    z-index: -1;
+    overflow: visible;
+    opacity: .27;
+    margin-bottom: 2rem;
+}
+
+.contenedor{
+    width: 85%;
+    max-width: 120rem;
+    margin: 5rem auto;
+}
+
+.contenedor-icontexto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .contenedor-iconos{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        justify-content: space-around;
+        align-items: center;
+        .nosotros-icono{
+            width: 6rem;
+        }
+    }
+}
+
+.contenedor-texto{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: justify;
+    align-items: center;
+    p{
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    }
+}
+
+.contendor-nosotros_texto{
+    background-color: $beishe;
+    height: auto;
+    padding: 1rem;
+    .btn-simple{
+        margin: 0 auto;
+        width: 40%;
+    }
+    .nosotros-titulo{
+        font-weight: $bold;
+        font-size: 2rem;
+        margin: .5rem;
+    }
+    .nosotros-descripcion{
+        font-size: 1.5rem;
+        margin: .5rem 0;
+        text-align: justify;
+        padding: 3rem;
+        line-height: 1.7rem;
+    }
+}
+
+//Mobile-version
+
+@include desktop{
+
+    .btn-simple{
+        min-width: 25rem;
+        font-size: 2rem;
+        display: flex;
+        margin: 0 auto;
+    }
+    .bg2-nosotros_principal{
+        display: none;
+    }
+    .bg-nosotros_principal{
+        display: flex;
+        z-index: -1;
+        background-position: 550% 50%;
+    }
+    .ayuda-contenedor2{
+        width: 50%;
+    }
+    .ayuda-contenedor{
+        width: 50%;
+    }
+    .contenedor-help{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        width: 85%;
+        height: 60%;
+    }
+
+    .help{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        .contenedor-icontexto{
+            height: 35%;
+    
+            .contenedor-iconos{
+                align-items: center;
+            }
+            .contenedor-texto{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                text-align: justify;
+                p{
+                    font-size: 2rem;
+                    line-height: 2.5rem;
+                    font-weight: $regular;
+                    padding: none;
+                    margin: 0;
+                    margin-right: 2rem;
+                }
+                p:last-child{
+                    margin-bottom: 1rem;
+                }
+            }
+
+        
+        }
+        .contendor-nosotros_texto{
+            height: 100%;
+            .nosotros-titulo{
+                font-size: 4.5rem;
+                font-weight: $regular;
+                margin: 0;
+            }
+            .nosotros-descripcion{
+                font-weight: $regular;
+                text-align: justify;
+                font-size: 4rem;
+                line-height: 6rem;
+                padding: none;
+            }
+        }
+        
+
+        
+    }
+    .nosotros-icono{
+        width: 6rem;
+    }
+
+    
+}

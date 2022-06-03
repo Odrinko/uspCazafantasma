@@ -1,0 +1,142 @@
+.desktop-presentacion{
+  display: none;
+}
+
+.nosotros-ayuda_titulo {
+  font-weight: $bold;
+  font-size: 3rem;
+}
+
+.nosotros-contenedor_imagen {
+  display: flex;
+  justify-content: center;
+  .nosotros-ayuda_imagen {
+    width: 40%;
+  }
+}
+
+.nosotros-contenedor_texto {
+    margin: 1rem 5rem;
+  .nosotros-titulo {
+    font-weight: $bold;
+    font-size: 3rem;
+  }
+  .nosotros-descripcion{
+      text-align: justify;
+      font-size: 2rem;
+      line-height: 2rem;
+      margin: 5rem 0;
+  }
+}
+
+.nosotros-contenedor_botones{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .border{
+        border: solid $black 5px;
+        width: 35rem;
+        height: 5rem;
+        margin: 4rem 0;
+    }
+    .boton{
+        background-color: $beishe;
+        width: 35rem;
+        height: 5rem;
+        margin: -2rem 0 0 -2rem;
+        p{
+            font-weight: $regular;
+            margin: 0;
+            text-align: center;
+        }
+    }
+}
+
+@include desktop{
+  .desktop-presentacion{
+    display: flex;
+    .contenedor-logotipo{
+      width: 100%;
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .presentacion-logotipo{
+        display: flex;
+        height: 40vh;
+        width: 40%;
+        color: black;
+      }
+      .bg-logotipo{
+      background-image: url('/build/img/isotipo.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+      opacity: .27;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: -1;
+      justify-content: center;
+      align-items: center;
+      }
+
+      
+    }
+  }
+
+  .banner-carrusel{
+    height: 30%;
+    .nosotros-contenedor_imagen{
+      .nosotros-ayuda_imagen{
+        width: 15%;
+      }
+    }
+    .nosotros-ayuda_titulo{
+      font-size: 4rem;
+    }
+  }
+  
+  .size{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .nosotros-contenedor_botones{
+      display: none;
+    }
+    .nosotros-titulo{
+      font-size: 8rem;
+    } 
+    .nosotros-descripcion{
+      font-size: 3.5rem;
+      line-height: 4rem;
+      padding: 0 12rem;
+      margin: 6rem 0;
+    }
+    .contenedor-botones_desktop{
+      display: flex;
+      width: 50%;
+      height: auto;
+      padding: 1rem 0;
+      justify-content: space-around;
+      background-color: $beishe;
+      border-radius: 25px;
+      .boton-desktop{
+        font-size: 3.5rem;
+        width: 20%;
+        background-color: $beishe;
+        border-radius: 30px;
+        border: none;
+        padding: 1rem 0;
+
+        &:hover{
+          cursor: pointer;
+          color: white;
+          background-color: black;
+        }
+      }
+    }
+  }
+}

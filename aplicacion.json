@@ -1,0 +1,113 @@
+{   
+"servicios":[
+                    {
+                        "id": "1",
+                        "titulo": "Servicio Basico",
+                        "descripcion": "Control de plagas: El control de plagas o manejo de plagas tiene el objetivo de regular una especie mediante el uso de diferentes metodos. ",
+                        "detalle": "Controlamos las plagas más comunes en hogares o negocios: Cucarachas, Hormigas, Alacranes, Arañas ",
+                        "imagen": "/build/img/servicios1.webp",
+                        "mensaje": "https://wa.me/529878780127?text=Hola%20Cazafantasmas%20quisiera%20agendar%20para%20un%20Servicio%20Basico"
+                    },
+                    
+                    {
+                        "id": "2",
+                        "titulo": "Servicios Adicional",
+                        "descripcion": "Control de plagas: El control de plagas o manejo de plagas tiene el objetivo de regular una especie mediante el uso de diferentes metodos.",
+                        "detalle": "Algunas plagas requieren un tratamiento especial… ¡Podemos ayudarte! Pulgas, Garrapatas, Chinche de cama, Plagas de jardin",
+                        "imagen": "/build/img/servicios2.webp",
+                        "mensaje":"https://wa.me/529878780127?text=Hola%20Cazafantasmas%20quisiera%20agendar%20para%20un%20Servicio%20Adicional"
+                    },
+
+                    {
+                        "id": "3",
+                        "titulo": "Control de Voladores",
+                        "descripcion": "Control de insectos: El control de insectos o manejo de insectos tiene el objetivo de regular una especie mediante el uso de diferentes metodos.",
+                        "detalle": "Ofrecemos alternativas para el control de voladores en negocios de manejo de alimentos o para eventos en exteriores Moscas, Termonebulizaciones contra mosquitos",
+                        "imagen": "/build/img/servicios3.webp",
+                        "mensaje":"https://wa.me/529878780127?text=Hola%20Cazafantasmas%20quisiera%20agendar%20para%20un%20Servicio%20de%20Control%20de%20Voladores"
+                    },
+
+                    {
+                        "id": "4",
+                        "titulo": "Control de roedores",
+                        "descripcion": "Servicio para cualquier tipo de inmueble expuesto a daños por roedores (residencial, comercial o industrial). ",
+                        "detalle": "Trampeo y captura, colocacion de cebos, Seguimiento",
+                        "imagen": "/build/img/servicios4.webp",
+                        "mensaje":"https://wa.me/529878780127?text=Hola%20Cazafantasmas%20quisiera%20agendar%20para%20un%20Servicio%20de%20Control%20de%20Roedores"
+                    },
+
+                    {   
+                        "id": "5",
+                        "titulo": "Tratamiento contra plagas de madera",
+                        "descripcion": "Soluciones a problemas con plagas en madera estructural y decorativa.",
+                        "detalle": "Termitasubterranea, tratamiento-preconstruccion, tratamiento post-construccion esarabajos de la madera, termita de madera seca y hormiga carpintera",
+                        "imagen": "/build/img/servicios5.webp",
+                        "mensaje":"https://wa.me/529878780127?text=Hola%20Cazafantasmas%20quisiera%20agendar%20para%20un%20Servicio%20de%20Tratamiento%20contra%20Plagas%20de%20Madera"
+                    },
+
+                    {
+                        "id": "6",
+                        "titulo": "Desinfección patógena",
+                        "descripcion": "Eliminamos bacterias, virus, hongos y otros patógenos que afectan la salud.",
+                        "detalle": " Con licencia sanitaria que avala nuestro servicio.",
+                        "imagen": "/build/img/servicios5.webp",
+                        "mensaje":"https://wa.me/529878780127?text=Hola%20Cazafantasmas%20quisiera%20agendar%20para%20un%20Servicio%20de%20Desinfeccion%20Patogena"
+                    }
+    ],
+
+    "botonesNosotros":
+    [
+        {
+            "id":"0",
+            "titulo": "Nuestra Mision",
+            "descripcion": "Brindar soluciones para el control de plagas que permitan proveer a nuestros clientes la confianza, seguridad y comodidad de que su entorno se encuentre libre de organismos que pudieren atentar contra su salud o instalaciones, mediante la aplicación integral de técnicas especializadas para cada problemática, sin dejar de lado la preservación del medio ambiente y el personal aplicador."
+        },
+    
+        {
+            "id":"1",
+            "titulo": "Nuestra Vision",
+            "descripcion":"Año 2026. Ser una empresa que ofrece servicios en las principales localidades de la Península de Yucatán y contar con una amplia cartera de clientes en diferentes giros económicos. Para ello, nuestro personal se encontrará certificado en las competencias y distintivos correspondientes, en cumplimiento de los estándares de calidad requeridos para su labor."
+        },
+
+        {
+            "id":"2",
+            "titulo": "Nuestros Valores",
+            "descripcion":"Compromiso, Responsabilidad, Integridad, Competitividad, Trabajo en equipo"
+        }
+
+    ],
+
+    "imagenAuto":
+    [
+        {
+            "id":"0",
+            "imagen":"/build/img/isotipo-solido.svg"
+        },
+
+        {
+            "id":"1",
+            "imagen":"/build/img/isotipo-solido.svg"
+        },
+
+        {
+            "id":"2",
+            "imagen":"/build/img/isotipo-solido.svg"
+        },
+
+        {
+            "id":"3",
+            "imagen":"/build/img/isotipo-solido.svg"
+        },
+
+        {
+            "id":"4",
+            "imagen":"/build/img/isotipo-solido.svg"
+        },
+
+        {
+            "id":"5",
+            "imagen":"/build/img/isotipo-solido.svg"
+        }
+    ]
+
+}

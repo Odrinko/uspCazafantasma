@@ -1,0 +1,232 @@
+//mobile version
+
+.botones-desktop {
+  display: none;
+}
+
+.form-botones{
+  align-items: center;
+}
+
+.footer-bg {
+  background-color: $beishe;
+  padding: 2rem;
+  max-width: 95%;
+  height: 65vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  .contenedor-formulario{
+    height: 80%;
+    form{
+      height: 100%;
+      .campo{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        margin: .5rem 0 .5rem 2.5rem;
+      }
+      
+    }
+    .help-form{
+      display: flex;
+    }
+  }
+  .formulario-contenedor-texto {
+    display: none;
+    text-align: justify;
+  }
+  .entrada {
+    width: 75%;
+    background: inherit;
+    border: none;
+    border-bottom: solid 2px $negro;
+    outline: none;
+    &::selection {
+      font-size: 2rem;
+      border: 0cm;
+    }
+  }
+  textarea {
+    font-size: 2rem;
+    background: inherit;
+    border: none;
+    border-bottom: solid 1px $negro;
+  }
+
+  .iconos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+    .icono-contenedor {
+      display: flex;
+      align-items: center;
+      margin: 1rem;
+      p {
+        font-size: 2rem;
+        margin: 0;
+      }
+      .icono-svg {
+        @include desktop{
+          width: 5rem;
+        height: 5rem;
+        }
+        width: 3rem;
+        height: 3rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+
+.privacidad {
+  background-color: $beishe;
+  margin: 1rem auto;
+  text-align: center;
+  border-radius: 0 0 5rem 5rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  .privacidad-texto{
+  width: 40%;
+  }
+  p {
+    margin: .5rem;
+    line-height: 1;
+    font-size: .5rem;
+    text-align: left;
+  }
+  .footer-logo {
+    width: 40vw;
+  }
+}
+
+
+
+//desktop version
+
+@include desktop {
+
+  .form-botones{
+    align-items: center;
+    justify-content: center;
+      .btn-simple{
+        margin-top: 6rem;
+      }
+    
+  }
+  
+  .botones-desktop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .btn-black_whatsapp{
+      width: 50rem;
+      height: 15rem;
+      p{
+        font-size: 3rem;
+      };
+      }
+  }
+  .botones-mobile {
+    display: none;
+  }
+
+  .footer-bg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column-reverse;
+    height: 66vh;
+    .formulario-contenedor-texto{
+      display: grid;
+    }
+    .icono-contenedor{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .contenedor-formulario {
+    display: grid;
+    height: 100%;
+    grid-column: 1/2;
+    grid-row: 1/4;
+    
+
+    .btn-simple{
+      font-size: 4rem;
+      height: auto;
+    }
+
+    
+
+    .entrada{
+    font-size: 3rem;
+    line-height: 2.5rem;
+    margin: 1rem 0;
+    width: 80%;
+    }
+    textarea{
+      width: 90%;
+    }
+
+    .help-form{
+      display: flex;
+      flex-direction: row;
+      
+    }
+  }
+
+  .campo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+
+    label{
+      font-size: 4rem;
+      margin: 1rem 0;
+    }
+  }
+    
+  
+  
+  }
+
+  .formulario-contenedor-texto {
+    text-align: justify;
+    grid-column: 2/3;
+    h2, p{
+      font-size: 3.5rem;
+      font-weight: 400;
+    }
+  }
+
+  .botones-desktop {
+    grid-column: 2/3;
+  }
+
+  .privacidad{
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    .footer-logo{
+      height: 100%;
+    }
+
+    .privacidad-texto{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      p{
+        @include desktop{
+          font-size: 4rem;
+        }
+        width: 70%;
+        font-size: 2rem;
+      }
+    }
+  }
+
+
