@@ -45,6 +45,9 @@
       }
       .ocultar-nav {
         display: none;
+        @include desktop{
+          display: flex;
+        }
       }
   
       a {
@@ -103,10 +106,8 @@
           flex-direction: row;
           width: 90%;
           font-size: 3rem;
-          .ocultar-nav{
-            display: flex;
-          }
           .nav {
+            display: flex;
             flex-direction: row;
           }
   
