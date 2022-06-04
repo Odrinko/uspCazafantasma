@@ -13,10 +13,15 @@
         filter: invert(100%);
     }
     .seccion-corporativo .contenedor-img, .seccion-hogar .contenedor-img{
-        border: .3rem solid $rojo;
+        @include desktop{
+            border: .3rem solid $rojo;
+        }
     }
     .contenedor-img{
-        border: .3rem solid $rojo;
+        @include desktop{
+            border: .3rem solid $rojo;
+        }
+        
     }
 
     .desktop-presentacion .contenedor-logotipo .bg-logotipo{

@@ -23,13 +23,13 @@
   justify-content: space-between;
   .btn-black_whatsapp,
   .btn-simple {
-    width: auto;
+    width: 17rem;
     height: auto;
     background-color: $negro;
     color: $blanco;
     font-size: 1.5rem;
     margin-top: 1rem;
-    padding: .5rem;
+    padding: 1rem;
     border: none;
     border-radius: 2rem;
     text-align: center;
@@ -59,6 +59,10 @@
   }
 }
 
+.btn-black_whatsapp{
+  width: 20rem;
+}
+
 .btn-black_whatsapp,
   .btn-simple {
     width: auto;
@@ -67,7 +71,7 @@
     color: $blanco;
     font-size: 1.5rem;
     margin-top: 1rem;
-    padding: 2rem;
+    padding: 1.5rem;
     border: none;
     border-radius: 2rem;
     text-align: center;

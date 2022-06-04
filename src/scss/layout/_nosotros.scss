@@ -5,6 +5,7 @@
 .nosotros-ayuda_titulo {
   font-weight: $bold;
   font-size: 3rem;
+  margin: 0;
 }
 
 .nosotros-contenedor_imagen {
@@ -19,13 +20,15 @@
     margin: 1rem 5rem;
   .nosotros-titulo {
     font-weight: $bold;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin: 0;
   }
   .nosotros-descripcion{
       text-align: justify;
-      font-size: 2rem;
-      line-height: 2rem;
-      margin: 5rem 0;
+      font-size: 1.8rem;
+      line-height: 1.5rem;
+      margin: 2rem 0;
+      height: 20rem;
   }
 }
 
@@ -34,21 +37,26 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin: 3rem 0;
     .border{
         border: solid $black 5px;
-        width: 35rem;
+        width: 65%;
         height: 5rem;
-        margin: 4rem 0;
+        margin: 2.5rem 0;
     }
     .boton{
         background-color: $beishe;
-        width: 35rem;
+        width: 100%;
         height: 5rem;
         margin: -2rem 0 0 -2rem;
+        display: flex;
+        justify-content: center;
+        align-content: center;
         p{
             font-weight: $regular;
             margin: 0;
             text-align: center;
+            font-size: 2rem;
         }
     }
 }

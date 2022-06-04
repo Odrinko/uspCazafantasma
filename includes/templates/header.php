@@ -22,7 +22,7 @@
             <div class="navegacion-contenedor">
                 <nav class="navegacion">
                     <img class="menu-mobile" src="/build/img/hamburguesa.svg" alt="">
-                    <div class="nav">
+                    <div class="nav ocultar-nav">
                         <a href="/index.php">Inicio</a>
                         <a href="/servicios.php">Servicios</a>
                         <a href="/nosotros.php">Nosotros</a>
