@@ -56,6 +56,7 @@
 @include desktop{
   .desktop-presentacion{
     display: flex;
+    height: 88vh;
     .contenedor-logotipo{
       width: 100%;
       height: 80vh;
@@ -93,12 +94,13 @@
       }
     }
     .nosotros-ayuda_titulo{
-      font-size: 4rem;
+      font-size: 3rem;
+      margin: 0;
     }
   }
   
   .size{
-    height: 100vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,11 +109,12 @@
       display: none;
     }
     .nosotros-titulo{
-      font-size: 8rem;
+      font-size: 3rem;
+      margin-top: 0;
     } 
     .nosotros-descripcion{
-      font-size: 3.5rem;
-      line-height: 4rem;
+      font-size: 2rem;
+      line-height: 3rem;
       padding: 0 12rem;
       margin: 6rem 0;
     }
@@ -124,7 +127,7 @@
       background-color: $beishe;
       border-radius: 25px;
       .boton-desktop{
-        font-size: 3.5rem;
+        font-size: 2rem;
         width: 20%;
         background-color: $beishe;
         border-radius: 30px;
