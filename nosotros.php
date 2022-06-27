@@ -26,6 +26,11 @@ incluirTemplate('header');
     </section>
 
     <div class="bg-nosotros_principal"></div>
+    <div class="contenedor-botones_desktop">
+        <button class="boton-desktop" id="mision">Mision</button>
+        <button class="boton-desktop" id="vision">Vision</button>
+        <button class="boton-desktop" id="valores">Valores</button>
+    </div>
     <div class="nosotros-contenedor_texto">
         <h2 class="nosotros-titulo" id="tituloNosotros">
 
@@ -51,11 +56,7 @@ incluirTemplate('header');
             </div>
         </div>
     </div>
-    <div class="contenedor-botones_desktop">
-        <button class="boton-desktop" id="mision">Mision</button>
-        <button class="boton-desktop" id="vision">Vision</button>
-        <button class="boton-desktop" id="valores">Valores</button>
-    </div>
+    
 </main>
 
 <?php
