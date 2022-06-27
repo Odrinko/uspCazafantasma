@@ -41,15 +41,15 @@ incluirTemplate('header');
         </div>
         <div class="contenedor-carrusel_btn">
 
-            <a id="botonAnterior" class="btn-simple">
+            <button id="botonAnterior" class="btn-simple">
                 <p>Anterior</p>
-            </a>
+            </button>
             <a class="btn-simple btn-caracteristicas" id="botonAgendar" href="#" target="blank">
                 <p>Agendar</p>
             </a>
-            <a id="botonSiguiente" class="btn-simple">
+            <button id="botonSiguiente" class="btn-simple">
                 <p>Siguiente</p>
-            </a>
+            </button>
         </div>
     </div>
 
