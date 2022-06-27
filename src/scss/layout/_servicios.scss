@@ -14,18 +14,17 @@
 .contenedor-bg{
     background-color: $beishe;
     width: 100%;
-    height: 45vh;
+    height: 85vh;
     margin-bottom: 3rem;
     padding: 2rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     
 }
 
 .img-servicios{
-    width: 18rem;
-    height: 10rem;
+    display: none;
 }
 
 .hogar-image{
@@ -38,26 +37,50 @@
 
 .seccion-corporativo, .seccion-hogar{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    .helper{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .btn-simple{
+        width: 90%;
+        p{
+            margin: 0;
+            line-height: 1;
+            font-size: 2rem;
+        }
+
+        @include telefonoPequeno {
+            width: 70%;
+            padding: 2rem 0;
+            margin: 0 -3rem;
+            P{
+                font-size: 2rem;
+            }
+        }
+    }
 }
 
 .seccion-hogar{
     flex-direction: row-reverse;
 }
 
-.btn-simple{
-    p{
-        margin: 0;
-    }
-}
+
 
 // Fondo de las imagenes con bordes negros
+
 .contenedor-img{
-    border: solid black .3rem;
-    width: 18rem;
-    height: 10rem;
+    @include desktop{
+        border: solid black .3rem;
+    }
+ 
+    width: 20rem;
+    height: 100%;
 }
 
 //Carrusel 
@@ -118,6 +141,9 @@
     .contenedor-bordes_detalles{
         display: flex;
     }
+    .img-servicios{
+        display: flex;
+    }
 
     .bg-nosotros_principal{
         z-index:-1;
@@ -146,6 +172,7 @@
 
         .btn-simple{
             position: relative;
+            width: 20rem;
             p{
                 font-size: 2rem;
             }
@@ -200,7 +227,7 @@
         .mobile-help{
         display: flex;
         flex-direction: row;
-        height: 65vh;
+        height: 75vh;
 
         }
 
@@ -240,8 +267,5 @@
             }
         }
         
-        .btn-caracteristicas{
-            margin-top: -5rem;
-        }
     }
 }

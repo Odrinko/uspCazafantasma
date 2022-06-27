@@ -47,8 +47,13 @@
     align-items: center;
     margin-bottom: 1rem;
     .btn-simple{
+        @include telefonoPequeno{
+            padding: 
+            2rem .5rem;
+        }
         height: 3rem;
         margin: 0 .5rem;
+        padding: 2rem;
 
         @include desktop{
             height: 6rem;

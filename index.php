@@ -8,15 +8,15 @@ incluirTemplate('header');
 
 <section class="section-contenedor section-bg">
     <div class="inicio-botones ">
-        <a href="https://wa.me/529878780127?text=Prueba%20de%20boton%20Proyecto:%20uspCazafantasma" target="blank" class="btn-black_whatsapp ">
+        <a href="https://wa.me/529878780127?text=Hola%20Cazafantasmas%20quisiera%20mas%20informacion" target="blank" class="btn-black_whatsapp ">
             <p>Contactanos</p>
             <div class="btn-black_in">
                 <img class="icon-btn" src="/build/img/icon-whatsapp.svg" alt="">
                 <p>whatsapp</p>
             </div>
         </a>
-        <a href="https://wa.me/529878780127?text=Prueba%20de%20boton%20Proyecto:%20uspCazafantasma" target="blank" class="btn-simple">
-            <p>Producto.</p>
+        <a href="https://wa.me/529878780127?text=Hola%20Cazafantasmas%20tengo%20un%20problema%20de%20roedores%20" target="blank" class="btn-simple">
+            <p>¿Roedores?</p>
         </a>
     </div>
     <div class="eslogan-desktop_contenedor">
