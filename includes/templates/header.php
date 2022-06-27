@@ -12,12 +12,13 @@
     <link rel="stylesheet" href="/build/css/app.css" />
     <title>Cazafantasma</title>
 </head>
+
 <body>
     <header>
         <div class="contenedor-bg_color">
-            <div class="logotipo-contenedor">
+            <a class="logotipo-contenedor" href="index.php">
                 <img class="header-logotipo" src="/build/img/logo-header.svg" alt="">
-            </div>
+            </a>
             <div class="navegacion-contenedor">
                 <nav class="navegacion">
                     <img class="menu-mobile" src="/build/img/hamburguesa.svg" alt="">

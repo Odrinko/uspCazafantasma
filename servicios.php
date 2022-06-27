@@ -6,32 +6,13 @@ incluirTemplate('header');
 
 ?>
 
-<section>
-    <div class="contenedor-bg">
-        <div class="seccion-corporativo">
-            <div class="btn-simple">
-                <p>Corporativo</p>
-            </div>
-            <div class="contenedor-img">
-                <img class="img-servicios corporativo-image" src="/build/img/serviciosCorporativos.webp" alt="">
-            </div>
-        </div>
-        <div class="seccion-hogar">
-            <div class="btn-simple">
-                <p>Hogar</p>
-            </div>
-            <div class="contenedor-img">
-                <img class="img-servicios hogar-image" src="/build/img/serviciosParaelHogar.webp" alt="">
-            </div>
-        </div>
-    </div>
-</section>
+
 
 <main>
     <div class="bg-nosotros_principal"></div>
     <div class="contenedor-carrusel">
         <div class="contenedor-titulo">
-            <h2 class="titulo-producto">Servicios Corporativos</h2>
+            <h2 class="titulo-producto">Conoce nuestros servicios</h2>
         </div>
         <div class="mobile-help">
             <div class="contenedor-imagen">
@@ -60,19 +41,61 @@ incluirTemplate('header');
         </div>
         <div class="contenedor-carrusel_btn">
 
-            <div id="botonAnterior" class="btn-simple">
+            <button id="botonAnterior" class="btn-simple">
                 <p>Anterior</p>
-            </div>
+            </button>
             <a class="btn-simple btn-caracteristicas" id="botonAgendar" href="#" target="blank">
                 <p>Agendar</p>
             </a>
-            <div id="botonSiguiente" class="btn-simple">
+            <button id="botonSiguiente" class="btn-simple">
                 <p>Siguiente</p>
-            </div>
+            </button>
         </div>
     </div>
 
 </main>
+<section>
+    <div class="contenedor-titulo">
+        <h2 class="titulo-producto">¿Tienes mas dudas?</h2>
+    </div>
+    <div class="contenedor-bg">
+
+        <div class="seccion-corporativo">
+
+            <div class="contenedor-img">
+                <div class="helper">
+                    <a class="btn-simple" target="blank" href="https://wa.me/529878780127?text=Hola%20Cazafantasmas%20tengo%20dudas%20sobre%20un%20Control%20de%20insectos%20Basico">
+                        <p>Control de insectos basico</p>
+                    </a>
+                    <a class="btn-simple" target="blank" href="https://wa.me/529878780127?text=Hola%20Cazafantasmas%20tengo%20dudas%20sobre%20un%20Control%20de%20insectos%20adicional">
+                        <p>Control de insectos adicional</p>
+                    </a>
+                    <a class="btn-simple" target="blank" href="https://wa.me/529878780127?text=Hola%20Cazafantasmas%20tengo%20dudas%20sobre%20un%20servicio%20de%20Control%20de%20voladores">
+                        <p>Control de voladores</p>
+                    </a>
+                </div>
+                <img class="img-servicios corporativo-image" src="/build/img/serviciosCorporativos.webp" alt="">
+            </div>
+        </div>
+        <div class="seccion-hogar">
+
+            <div class="contenedor-img">
+                <div class="helper">
+                    <a class="btn-simple" target="blank" href="https://wa.me/529878780127?text=Hola%20Cazafantasmas%20tengo%20dudas%20sobre%20un%20servicio%20de%20control%20de%20roedores">
+                        <p>Control de roedores</p>
+                    </a>
+                    <a class="btn-simple" target="blank" href="https://wa.me/529878780127?text=Hola%20Cazafantasmas%20tengo%20dudas%20sobre%20que%20es%20el%20tratamiento%20de%20plagas%20de%20madera">
+                        <p>Tratamiento plagas de madera</p>
+                    </a>
+                    <a class="btn-simple" target="blank" href="https://wa.me/529878780127?text=Hola%20Cazafantasmas%20tengo%20dudas%20sobre%20la%20desifeccion%20patogena">
+                        <p>Desinfeccion patogena</p>
+                    </a>
+                </div>
+                <img class="img-servicios hogar-image" src="/build/img/serviciosParaelHogar.webp" alt="">
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <?php
