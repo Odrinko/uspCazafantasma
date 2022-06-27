@@ -82,16 +82,8 @@ incluirTemplate('header');
                 <div class="contendor-nosotros_texto">
                     <h2 class="nosotros-titulo">Acerca de nosotros</h2>
                     <h3 class="nosotros-descripcion">
-                        be distracted by thereadable content It is
-                        a long established fact that that a reader will
-                        readable content It is
-                        a long established fact that
-                        a long established fact that that a reader will
-                        readable content It is
-                        a long established fact that
-                        a long established fact that that a reader will
-                        readable content It is
-                        a long established fact that
+                    Somos una empresa establecida ubicada en Quintana Roo desde 2004; desde entonces hemos brindado servicios a diversos clientes del ramo residencial, comercial e industrial en localidades como Cancún, Playa del Carmen y Tulum. 
+Contamos con licencia sanitaria COFEPRIS para los servicios de fumigación, desinfección y control de plagas. Además, ahora estamos registrados en REPSE.
                     </h3>
                     <a href="/nosotros.php" class="btn-simple">
                         Conocenos

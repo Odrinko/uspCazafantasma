@@ -12,20 +12,23 @@ incluirTemplate('header');
     </div>
 </section>
 
-<section class="banner-carrusel">
-    <h2 class="nosotros-ayuda_titulo">
-        Conoce a quien hemos ayudado.
-    </h2>
-    <div class="nosotros-contenedor_imagen">
-        <img class="nosotros-ayuda_imagen" src="" id="imagenRandom" alt="">
-    </div>
-</section>
+
 
 <main class="size">
+
+    <section class="banner-carrusel">
+        <h2 class="nosotros-ayuda_titulo">
+            Conoce a quien hemos ayudado.
+        </h2>
+        <div class="nosotros-contenedor_imagen">
+            <img class="nosotros-ayuda_imagen" src="" id="imagenRandom" alt="">
+        </div>
+    </section>
+
     <div class="bg-nosotros_principal"></div>
     <div class="nosotros-contenedor_texto">
         <h2 class="nosotros-titulo" id="tituloNosotros">
-            
+
         </h2>
         <p class="nosotros-descripcion" id="descripcionNosotros">
 

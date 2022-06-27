@@ -65,7 +65,7 @@
 .contenedor-carrusel{
     display: flex;
     flex-direction: column;
-    margin: 4rem 3rem;
+    margin:0;
     align-items: center;
     height: auto;
     .titulo-producto{
@@ -134,18 +134,26 @@
         flex-direction: column-reverse;
         width: 30%;
         height: 85%;
-    
+        
+        .helper{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            height: 50%;
+        }
 
         .btn-simple{
-            position: absolute;
+            position: relative;
             p{
-                font-size: 3rem;
+                font-size: 2rem;
             }
             &:hover{
                 background-color: white;
                 color: black;
                 p{
-                font-size: 3.5rem;
+                font-size: 2.2rem;
                 font-weight: $bold;
                 }
             }
@@ -154,6 +162,9 @@
             width: 100%;
             height: 100%;
             border: 1rem solid #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
             .img-servicios{
                 width: 100%;
@@ -176,57 +187,61 @@
         }
 
         .titulo-producto{
-            font-size: 6rem;
-            margin-bottom: -2rem;
+            font-size: 3rem;
+            margin: 0;
         }
 
         .contenedor-imagen{
-            width: 30%;
-            margin-top: -20rem;
+            width: 32%;
+            margin-top: -18rem;
             margin-right: -5rem;
         }
 
         .mobile-help{
         display: flex;
         flex-direction: row;
-        height: 75vh;
+        height: 65vh;
 
         }
 
+    
+
         .contenedor-bordes, .contenedor-bordes_detalles{
-            width: 49rem;
-            height: 38rem;
+            width: 30rem;
+            height: 20rem;
             border: solid $black 1rem;
             margin-bottom: -20rem;
-            margin-left: -5rem;
+            margin-left: 6rem;
            
             .contenedor-descripcion{
                 width: 95%;
                 height: 95%;
                 margin: 1rem auto;
-                padding: 5rem;
+                padding: 1rem;
                 .producto-titulo, .producto-descripcion{
-                    font-size: 2.5rem;
-                    line-height: 2.5rem;
-                    margin: 2rem auto;
+                    font-size: 1.5rem;
+                    line-height: 2rem;
+                    margin: .5rem auto;
                 }
             }
         }
 
         .contenedor-bordes_detalles{
-            margin-top: -42rem;
+            margin-top: -38rem;
+            margin-left: -2rem;
             z-index: -1;
         }
 
         .btn-simple{
-            margin: 3rem auto;
+            margin: 1rem 1rem;
+            padding: .5rem;
             p{
-                font-size: 3.5rem;
+                font-size: 2rem;
             }
         }
         
         .btn-caracteristicas{
-            margin-top: -34rem;
+            margin-top: -5rem;
         }
     }
 }
