@@ -1,4 +1,9 @@
   <footer>
+    <?php
+
+     
+
+    ?>
     <div class="footer-bg">
       <div class="formulario-contenedor-texto">
         <h2>¿Necesitas algo mas?</h2>
@@ -8,36 +13,36 @@
         </p>
       </div>
       <div class="contenedor-formulario">
-        <form action="">
+        <form action="../../enviar.php" name="enviar" method="$_POST">
           <div class="help-form">
             <div class="campo">
               <label for="nombre">Nombre</label>
-              <input name="user_name" class="entrada" type="text" placeholder="Nombre" id="nombre">
+              <input name="nombreCliente" class="entrada" type="text" placeholder="Nombre" id="nombre">
             </div>
 
 
             <div class="campo">
               <label for="apellidos">Apellidos</label>
-              <input name="user_lastName" class="entrada" type="text" placeholder="Apellidos" id="apellidos">
+              <input name="apellidoCliente" class="entrada" type="text" placeholder="Apellidos" id="apellidos">
             </div>
           </div>
 
           <div class="help-form">
             <div class="campo">
               <label for="email">Email</label>
-              <input name="user_email" class="entrada" type="email" placeholder="Email" id="email">
+              <input name="emailCliente" class="entrada" type="email" placeholder="Email" id="email">
             </div>
 
 
             <div class="campo">
               <label for="telefono">Telefono</label>
-              <input name="user_phone" class="entrada" type="text" placeholder="Teléfono" id="telefono">
+              <input name="telefonoCliente" class="entrada" type="text" placeholder="Teléfono" id="telefono">
             </div>
           </div>
 
           <div class="campo">
-            <label for="mensake">Mensaje</label>
-            <textarea name="use_mensaje" class="entrada" name="" id="" cols="30" rows="2" placeholder="Mensaje" id="mensaje"></textarea>
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensajeCliente" class="entrada" name="" id="" cols="30" rows="2" placeholder="Mensaje" id="mensaje"></textarea>
           </div>
 
           <div class="form-botones">
